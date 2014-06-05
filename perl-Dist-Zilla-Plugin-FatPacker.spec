@@ -1,11 +1,12 @@
 %define upstream_name    Dist-Zilla-Plugin-FatPacker
-%define upstream_version 1.100841
+%define upstream_version 1.141200
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Pack your dependencies onto your script file
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -45,4 +46,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes LICENSE META.yml META.json README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 

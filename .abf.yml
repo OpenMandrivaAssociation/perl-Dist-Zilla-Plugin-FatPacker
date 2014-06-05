@@ -1,2 +1,4 @@
+removed_sources:
+  Dist-Zilla-Plugin-FatPacker-1.100841.tar.gz: baa45cf85e5cbd6aef06c837d8af356d92f34b9a
 sources:
-  "Dist-Zilla-Plugin-FatPacker-1.100841.tar.gz": baa45cf85e5cbd6aef06c837d8af356d92f34b9a
+  Dist-Zilla-Plugin-FatPacker-1.141200.tar.gz: 29b9582184cffec1bd1afe128c1d53461168d2e2
