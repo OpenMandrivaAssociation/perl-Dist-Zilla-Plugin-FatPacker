@@ -1,16 +1,16 @@
 %define upstream_name    Dist-Zilla-Plugin-FatPacker
-%define upstream_version 1.141200
+%define upstream_version 1.161631
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Pack your dependencies onto your script file
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Dist/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/doherty/Dist-Zilla-Plugin-FatPacker
+Source0:	https://cpan.metacpan.org/authors/id/D/DO/DOHERTY/Dist-Zilla-Plugin-FatPacker-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
