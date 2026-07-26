@@ -1,16 +1,14 @@
 %define upstream_name    Dist-Zilla-Plugin-FatPacker
-%define upstream_version 1.161631
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.161631
+Release:	2
 
 Summary:	Pack your dependencies onto your script file
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/doherty/Dist-Zilla-Plugin-FatPacker
-Source0:	https://cpan.metacpan.org/authors/id/D/DO/DOHERTY/Dist-Zilla-Plugin-FatPacker-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DO/DOHERTY/Dist-Zilla-Plugin-FatPacker-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ This plugin uses the App::FatPacker manpage to pack your dependencies onto
 your script file.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
